@@ -1,4 +1,4 @@
-# show-me-what-you-got
+# show-us-what-you-got
 
 ## Introduction
 This repository is given to new candidates to get a feel for how we would work together.
