@@ -14,7 +14,9 @@ The projects use the following technologies:
 - Chai - an assertion engine
 - Sinon - a mocking framework
 
-The details of both challenges follow, along with step by step instructions to get up and running. Good luck : )
+Please fork this repository, commit as necessary, create a pull request for us to review, and send an email to let us know that you have finished.
+
+The details of both challenges follow, along with step by step instructions to get up and running once you have a local clone of the repository. Good luck : )
 
 ## Test One
 
@@ -40,15 +42,13 @@ npm start
 ```
 Now when you change code in the project src folder, nodemon will re-transpile, re-run unit tests, and re-start the program. See for yourself, go ahead and try changing the value of the message variable in test-one/src/index.js.
 
-Please commit to git as necessary and create a pull request in GitHub for us to review once you have completed both challenges.
-
 ## Test Two
 
 Currently, the 'test two' project makes requests to the GitHub API and outputs the first page of users belonging to Facebook's GitHub organisation. What we'd really like to see is a list of repositories for each user, for **all** Facebook GitHub users.
 
 Just to clarify, by the time you've completed the challenge, the program...
 
-* should output **all** Facebook GitHub users
+* should output all Facebook GitHub users
 * should output all repositories for each user
 
 Note that the GitHub API limits requests, and you will definitely reach the anonymous request limit while implementing this solution. To overcome this limit you will need to generate an OAuth key in your GitHub account's developer settings, and paste the key into the gitHubApiAuthToken constant in test-two/src/index.js
@@ -72,5 +72,3 @@ npm start
 
 ```
 Now when you change code in the project src folder, nodemon will re-transpile, re-run unit tests, and re-start the program. See for yourself, go ahead and try changing test-two/src/index.js.
-
-Please commit to git as necessary and create a pull request in GitHub for us to review once you have completed both challenges.
