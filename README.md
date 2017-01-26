@@ -34,8 +34,22 @@ Download project dependencies.
 npm update
 
 ```
-Transpile code from src folder to lib folder, run unit tests, and start the program
+Transpile code from src folder to lib folder
+```
+npm run compile
 
+```
+Run unit tests
+```
+npm test
+
+```
+and finally start the program
+```
+npm run go
+
+```
+Note that you can use the following command to compile, test and run the program every time you save a file (instead of running the above three commands every time you want to test your changes)
 ```
 npm start
 
@@ -44,11 +58,11 @@ Now when you change code in the project src folder, nodemon will re-transpile, r
 
 ## Test Two
 
-Currently, the 'test two' project makes requests to the GitHub API and outputs the first page of users belonging to Facebook's GitHub organisation. What we'd really like to see is a list of repositories for each user, for **all** Facebook GitHub users.
+Currently, the 'test two' project makes requests to the GitHub API and outputs the first page of users belonging to Uber's GitHub organisation. What we'd really like to see is a list of repositories for each user, for **all** Uber GitHub users.
 
 Just to clarify, by the time you've completed the challenge, the program...
 
-* should output all Facebook GitHub users
+* should output all Uber GitHub users
 * should output all repositories for each user
 
 Note that the GitHub API limits requests, and you will definitely reach the anonymous request limit while implementing this solution. To overcome this limit you will need to generate an OAuth key in your GitHub account's developer settings, and paste the key into the gitHubApiAuthToken constant in test-two/src/index.js
@@ -65,8 +79,22 @@ Download project dependencies.
 npm update
 
 ```
-Transpile code from src folder to lib folder, run unit tests, and start the program
+Transpile code from src folder to lib folder
+```
+npm run compile
 
+```
+Run unit tests
+```
+npm test
+
+```
+and finally start the program
+```
+npm run go
+
+```
+Note that you can use the following command to compile, test and run the program every time you save a file (instead of running the above three commands every time you want to test your changes)
 ```
 npm start
 
