@@ -31,7 +31,7 @@ Open a console window/tab to the 'test-one' project directory and run the follow
 Download project dependencies.
 
 ```
-npm update
+npm install
 
 ```
 Transpile code from src folder to lib folder
@@ -76,7 +76,7 @@ Open a console window/tab to the 'test-two' project directory and run the follow
 Download project dependencies.
 
 ```
-npm update
+npm install
 
 ```
 Transpile code from src folder to lib folder
@@ -100,3 +100,11 @@ npm start
 
 ```
 Now when you change code in the project src folder, nodemon will re-transpile, re-run unit tests, and re-start the program. See for yourself, go ahead and try changing test-two/src/index.js.
+
+## Test Three
+
+Currently, the 'test three' project includes a single file (menu-data.json), which as you may have guessed, contains a menu structure represented as JSON.
+
+Using React and which ever other tools/libraries you choose, implement a website that includes a working menu that renders the menu items from the provided JSON file.
+
+The website does not necessarily need to include any content, your focus should be on the menu. Feel free to extend or manipulate the structure of the JSON file if necessary.
