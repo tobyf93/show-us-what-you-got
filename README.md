@@ -3,9 +3,9 @@
 ## Introduction
 This repository is given to new candidates to get a feel for how we would work together.
 
-The repository contains two projects: test-one, and test-two.
+The repository contains three projects: test-one, test-two, and test-three.
 
-The projects use the following technologies:
+Projects one and two use the following technologies:
 
 - NodeJS
 - NPM - package manager
@@ -14,9 +14,11 @@ The projects use the following technologies:
 - Chai - an assertion engine
 - Sinon - a mocking framework
 
+Project three leaves the technology decisions up to you!
+
 Please fork this repository, commit as necessary, create a pull request for us to review, and send an email to let us know that you have finished.
 
-The details of both challenges follow, along with step by step instructions to get up and running once you have a local clone of the repository. Good luck : )
+The details of the individual challenges follow, along with step by step instructions to get up and running once you have a local clone of the repository. Good luck : )
 
 ## Test One
 
