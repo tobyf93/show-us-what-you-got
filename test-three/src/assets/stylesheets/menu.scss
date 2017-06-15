@@ -1,0 +1,16 @@
+@import '_colours.scss';
+
+.root {
+  display: inline-block;
+  // border: 1px solid black;
+  height: 100%;
+  padding: 15px;
+  background-color: $gainsboro;
+  box-shadow: 0 0 10px $silver;
+  overflow-y: scroll;
+}
+
+.header {
+  font-weight: bold;
+  margin-bottom: 10px;
+}

@@ -5,13 +5,13 @@
       "name": "Account",
       "children": [
         {
-          "name": "Preferences",
+          "name": "Preferences"
         },
         {
-          "name": "Contact Details",
+          "name": "Contact Details"
         },
         {
-          "name": "Manage Users",
+          "name": "Manage Users"
         }
       ]
     },
@@ -19,13 +19,13 @@
       "name": "Design",
       "children": [
         {
-          "name": "Themes",
+          "name": "Themes"
         },
         {
-          "name": "Gallery",
+          "name": "Gallery"
         },
         {
-          "name": "Templates",
+          "name": "Templates"
         }
       ]
     },
@@ -33,13 +33,13 @@
       "name": "Content",
       "children": [
         {
-          "name": "Pages",
+          "name": "Pages"
         },
         {
-          "name": "Links",
+          "name": "Links"
         },
         {
-          "name": "Widgets",
+          "name": "Widgets"
         }
       ]
     },
@@ -47,13 +47,13 @@
       "name": "Reporting",
       "children": [
         {
-          "name": "Dashboard",
+          "name": "Dashboard"
         },
         {
-          "name": "Reports",
+          "name": "Reports"
         },
         {
-          "name": "Scheduling",
+          "name": "Scheduling"
         }
       ]
     }

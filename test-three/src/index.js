@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Main from './containers/Main';
 import './index.html';
-import './assets/stylesheets/test.scss';
+import './assets/stylesheets/_global.scss';
 
-ReactDOM.render(<div>Hello World!</div>, document.getElementById('app'));
+ReactDOM.render(<Main />, document.getElementById('app'));
