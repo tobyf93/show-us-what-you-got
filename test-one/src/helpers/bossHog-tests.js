@@ -22,4 +22,12 @@ describe("bossHog", () => {
     const numbers = [15, 30, 45, 60, 75, 90, 105, 120, 135, 150];
     testNumbers(numbers, 'BossHog');
   });
+
+  it("should return the number for everything else", () => {
+    const numbers = [1, 2, 4, 7, 8, 11, 13, 14, 16, 17];
+
+    numbers.forEach((number) => {
+      expect(bossHog(number)).to.equal(number);
+    });
+  });
 });
